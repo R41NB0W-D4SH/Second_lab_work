@@ -19,7 +19,7 @@ int main()
 		{
 		a = sqrt(pow(y2 - y1, 2));
 		b = sqrt(pow(x2 - x1, 2));
-		p = (a + b) / 2;
+		p = (a + b) * 2;
 		s = a * b;
 
 		cout << "Периметр равен " << p << endl << "Площадь равна " << s << endl;
